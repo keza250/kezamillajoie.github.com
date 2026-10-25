@@ -1,0 +1,3 @@
+2026-10-25 22:48:40,031 | INFO    | RUN START | portfolio: https://keza250.github.io/ | browser: Chrome 156.0.8078.48 | OS: windows
+2026-10-25 22:48:43,279 | INFO    | TC-01 | Open Portfolio Home Page | expected: Page title contains expected text | actual: Page title is 'Site not found · GitHub Pages' | PASS | 0.0 s
+2026-10-25 22:48:47,810 | INFO    | RUN END | total: 2 | passed: 1 | failed: 1 | duration: 7.8 s

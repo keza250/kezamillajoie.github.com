@@ -1,0 +1,4 @@
+2026-10-25 22:51:36,000 | INFO    | RUN START | portfolio: https://keza250.github.io/ | browser: Chrome 156.0.8078.48 | OS: windows
+2026-10-25 22:51:38,813 | INFO    | TC-01 | Open Portfolio Home Page | expected: Page title contains expected text | actual: Page title is 'Site not found · GitHub Pages' | PASS | 0.0 s
+2026-10-25 22:51:44,292 | ERROR   | TC-02 | Click 'About Me' link | expected: #about section visible | actual: Message:  | FAIL | 5.3 s | screenshot: TC-02_fail_20261025_225133.png
+2026-10-25 22:51:49,699 | ERROR   | TC-03 | Click 'Services' link | expected: #services section visible | actual: Message:  | FAIL | 5.3 s | screenshot: TC-03_fail_20261025_225133.png

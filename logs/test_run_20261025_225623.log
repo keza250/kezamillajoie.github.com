@@ -1,0 +1,8 @@
+2026-10-25 22:56:25,863 | INFO    | RUN START | portfolio: https://keza250.github.io/kezamillajoie.github.com/ | browser: Chrome 156.0.8078.48 | OS: windows
+2026-10-25 22:56:30,579 | INFO    | TC-01 | Open Portfolio Home Page | expected: Page title contains expected text | actual: Page title is 'Keza Millajoie Appoline | Veterinary Doctor Portfolio' | PASS | 0.0 s
+2026-10-25 22:56:31,765 | INFO    | TC-02 | Click 'About Me' link | expected: #about section visible | actual: Navigated to #about section | PASS | 1.2 s
+2026-10-25 22:56:32,936 | INFO    | TC-03 | Click 'Services' link | expected: #services section visible | actual: Navigated to #services section | PASS | 1.2 s
+2026-10-25 22:56:34,121 | INFO    | TC-04 | Click 'Projects' link | expected: #projects section visible | actual: Navigated to #projects section | PASS | 1.2 s
+2026-10-25 22:56:39,647 | ERROR   | TC-05 | Check GitHub external link | expected: Link contains valid GitHub target | actual: Message:  | FAIL | 5.1 s | screenshot: TC-05_fail_20261025_225623.png
+2026-10-25 22:56:40,222 | ERROR   | TC-06 | Find non-existent element (Negative Test) | expected: NoSuchElementException caught and logged | actual: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="nonexistent-section-id-12345"]"} | FAIL | 0.2 s | screenshot: TC-06_fail_20261025_225623.png
+2026-10-25 22:56:43,631 | INFO    | RUN END | total: 6 | passed: 4 | failed: 2 | duration: 17.8 s

@@ -1,0 +1,8 @@
+2026-10-25 22:44:40,678 | INFO    | RUN START | portfolio: https://keza250.github.io/kezamillajoie.github.com/ | browser: Chrome 156.0.8078.48 | OS: windows
+2026-10-25 22:44:43,475 | INFO    | TC-01 | Open Portfolio Home Page | expected: Page title contains expected text | actual: Page title is 'Site not found · GitHub Pages' | PASS | 0.0 s
+2026-10-25 22:44:48,765 | ERROR   | TC-02 | Click 'About Me' link | expected: #about section visible | actual: Message:  | FAIL | 5.2 s | screenshot: TC-02_fail_20261025_224438.png
+2026-10-25 22:44:54,296 | ERROR   | TC-03 | Click 'Services' link | expected: #services section visible | actual: Message:  | FAIL | 5.3 s | screenshot: TC-03_fail_20261025_224438.png
+2026-10-25 22:45:00,079 | ERROR   | TC-04 | Click 'Projects' link | expected: #projects section visible | actual: Message:  | FAIL | 5.5 s | screenshot: TC-04_fail_20261025_224438.png
+2026-10-25 22:45:00,131 | INFO    | TC-05 | Check GitHub external link | expected: Link contains valid GitHub target | actual: External link points to 'https://help.github.com/pages/' | PASS | 0.1 s
+2026-10-25 22:45:00,269 | ERROR   | TC-06 | Find non-existent element (Negative Test) | expected: NoSuchElementException caught and logged | actual: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="nonexistent-section-id-12345"]"} | FAIL | 0.0 s | screenshot: TC-06_fail_20261025_224438.png
+2026-10-25 22:45:03,380 | INFO    | RUN END | total: 6 | passed: 2 | failed: 4 | duration: 22.7 s
